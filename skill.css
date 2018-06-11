@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+}
+#atas{
+    background-image: url(mac.jpg);
+    height: 200px;
+    background-size: cover;
+}
+#atas #keterangan {
+    float: left;
+    margin-left: 120px;
+    margin-top: 80px;
+    font-size: 1.9em;
+    color: white;
+    text-align: left;
+    letter-spacing: 6px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 15%
+}
+#keterangan h2{
+    margin: 0px;
+}
+#keterangan p{
+    margin: 0px;
+    text-align: right;
+}
+#atas #keterangan hr{
+    margin: 0px;
+    border: 1.5px solid #ffd215;
+}
+#atas ul{
+    margin: 0px;
+    list-style: none;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+#atas img{
+    height: 20px;
+}
+
+#atas ul li{
+    float: right;
+    padding: 0px 10px;
+}
+.nav{
+    float: left;
+    background: white;
+    width: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #37474F;
+    font-size: 15px;
+}
+
+.nav ul{
+    padding: 0px;
+}
+
+.nav li{
+    float: left;
+    list-style: none;
+    width: 105px;
+    padding: 10px;
+    margin: 0px 3px;
+    background-color: #ffd215;
+        
+    
+}
+.nav li a{
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    
+    
+}
+
+ul li a{
+    font-size: 0.9em;
+    color: #37474F;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.nav ul li a:hover {
+    background-color: #37474F;
+    color: #ffd215;
+}
+
+.center ul{
+    width: fit-content;
+    margin: auto;
+}
+.container{
+    padding: 90px 200px;  
+    padding-bottom: 0px;
+}
+.container h2{
+    font-size: 1.9em;
+    margin: 0px;
+    color: #37474F;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.skillbar-bar{
+
+    height: 35px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 1em;
+    color: #999;
+    line-height: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.skill-bar-precent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.88);
+    box-sizing: border-box;
+}

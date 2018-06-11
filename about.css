@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+}
+#atas{
+    background-image: url(mac.jpg);
+    height: 200px;
+    background-size: cover;
+}
+#atas #keterangan {
+    float: left;
+    margin-left: 120px;
+    margin-top: 80px;
+    font-size: 1.9em;
+    color: white;
+    text-align: left;
+    letter-spacing: 6px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 15%
+}
+#keterangan h2{
+    margin: 0px;
+}
+#keterangan p{
+    margin: 0px;
+    text-align: right;
+}
+#atas #keterangan hr{
+    margin: 0px;
+    border: 1.5px solid #ffd215;
+}
+#atas ul{
+    margin: 0px;
+    list-style: none;
+    padding-top: 30px;
+    padding-right: 100px;
+    font-size: 0.9em;
+    letter-spacing: 4px;
+    text-align: left;
+    line-height: 2em;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#atas a{
+    color: white;
+}
+#atas img{
+    height: 20px;
+    padding-right: 10px;
+}
+
+#atas ul li{
+    float: right;
+    padding: 0px 20px;
+}
+.nav{
+    float: left;
+    background: white;
+    width: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #37474F;
+    font-size: 15px;
+}
+.nav ul{
+    padding: 0px;
+}
+.nav ul li a:hover {
+    background-color: #37474F;
+    color: #ffd215;
+}
+
+.nav li{
+    float: left;
+    list-style: none;
+    width: 105px;
+    padding: 10px;
+    margin: 0px 3px;
+    background-color: #ffd215;
+        
+    
+}
+.nav li a{
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    
+    
+}
+
+ul li a{
+    font-size: 0.9em;
+    color: #37474F;
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    padding: 100px 120px;
+}
+
+.center ul{
+    width: fit-content;
+    margin: auto;
+}
+.content .kanan{
+    float: left;
+    margin-right: 100px;
+}
+.content #dp{
+    height: 300px;
+    border: 15px solid #CFD8DC;
+    
+}
+.content .kanan .sos ul li{
+    list-style: none;
+    padding: 5px;
+}
+.sos ul{
+    padding: 0px;
+    width: fit-content;
+    margin: auto;
+    padding-top: 20px
+}
+.sos li{
+    float: left;
+    list-style: none;
+    margin: 0px;
+}
+.sos li img{
+    height: 20px;
+    display: block;
+    padding: 10px;
+    background: gray;
+}
+
+
+.content h1{
+    margin: 0px;
+    color: #B0BEC5; 
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 span{
+    color: black;
+    font-size: 50px;
+}
+.content hr{
+    border: 1px dashed #B0BEC5;
+}
+
+.content table{
+    font-size: 0.9em;
+    color: #37474F;
+    text-align: left;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.content td{
+    padding: 10px 15px 10px 0px;
+}
+.content #a{
+    font-weight: bold;
+}
+.content2{
+    margin-top: 70px;
+    font-size: 0.9em;
+    color: #37474F;
+    text-align: left;
+    letter-spacing: px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
