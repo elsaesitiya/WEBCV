@@ -137,6 +137,7 @@ ul li a{
 .container textarea{
     height: 160px;
     width: 400px;
+    padding-bottom: 0px;
     padding-top: 10px;
     padding-left: 10px;
     letter-spacing: 4px;
